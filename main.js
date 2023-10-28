@@ -4,7 +4,7 @@ console.log(randNumber1);
 const diceNumber = `dice${randNumber1}.png`;
 console.log(diceNumber);
 
-const diceImage = `images/${diceNumber}`;
+const diceImage = `${diceNumber}`;
 console.log(diceImage);
 
 const image = document.querySelector(".img1");
@@ -17,7 +17,7 @@ console.log(randNumber1);
 const diceNumber2 = `dice${randNumber2}.png`;
 console.log(diceNumber);
 
-const diceImage2 = `images/${diceNumber2}`;
+const diceImage2 = `${diceNumber2}`;
 console.log(diceImage);
 
 const image2 = document.querySelector(".img2");
